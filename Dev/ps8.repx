@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<XtraReportsLayoutSerializer SerializerVersion="19.2.3.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="Xtra_Invoice" SnapGridSize="31.75" ReportUnit="TenthsOfAMillimeter" RollPaper="true" Margins="3, 66, 554, 0" PaperKind="Custom" PageWidth="800" PageHeight="68580" Version="19.2" DataSource="#Ref-0" Dpi="254" Font="Arial, 9.75pt">
+<XtraReportsLayoutSerializer SerializerVersion="19.2.3.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="Xtra_Invoice" SnapGridSize="31.75" ReportUnit="TenthsOfAMillimeter" RollPaper="true" Margins="18, 66, 551, 3" PaperKind="Custom" PageWidth="800" PageHeight="68580" Version="19.2" DataSource="#Ref-0" Dpi="254" Font="Arial, 9.75pt">
   <Bands>
-    <Item1 Ref="2" ControlType="TopMarginBand" Name="TopMargin" HeightF="553.825867" Dpi="254">
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="TopMargin" HeightF="551.1802" Dpi="254">
       <Controls>
         <Item1 Ref="3" ControlType="XRLabel" Name="xrLabel6" Multiline="true" Text="xrLabel1" TextAlignment="MiddleCenter" SizeF="675.7601,58.41998" LocationFloat="15.24003, 492.7601" Dpi="254" Font="Arial, 8pt, style=Bold" Padding="5,5,0,0,254">
           <ExpressionBindings>
@@ -40,7 +40,7 @@
         </Item6>
       </Controls>
     </Item1>
-    <Item2 Ref="20" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="0" Dpi="254" />
+    <Item2 Ref="20" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="3.066996" Dpi="254" />
     <Item3 Ref="21" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="1.587516" Dpi="254" />
     <Item4 Ref="22" ControlType="GroupHeaderBand" Name="GroupHeader1" RepeatEveryPage="true" GroupUnion="WithFirstDetail" HeightF="158.3264" Dpi="254">
       <Controls>
@@ -115,21 +115,21 @@
         </Item1>
       </Controls>
     </Item5>
-    <Item6 Ref="55" ControlType="GroupFooterBand" Name="GroupFooter1" HeightF="1263.65247" Dpi="254">
+    <Item6 Ref="55" ControlType="GroupFooterBand" Name="GroupFooter1" HeightF="1340.805" Dpi="254">
       <Controls>
-        <Item1 Ref="56" ControlType="XRLabel" Name="xrLabel10" Multiline="true" Text="xrLabel1" TextAlignment="MiddleCenter" SizeF="702.8192,58.41992" LocationFloat="3.18080544, 1171.70557" Dpi="254" Font="Arial, 8pt, style=Bold" Padding="5,5,0,0,254">
+        <Item1 Ref="56" ControlType="XRLabel" Name="xrLabel9" Multiline="true" Text="xrLabel1" TextAlignment="MiddleCenter" SizeF="702.8192,58.41992" LocationFloat="3.180805, 1113.286" Dpi="254" Font="Arial, 8pt, style=Bold" Padding="5,5,0,0,254">
           <ExpressionBindings>
-            <Item1 Ref="57" EventName="BeforePrint" PropertyName="Text" Expression="[usercreateshiftposNameA]" />
+            <Item1 Ref="57" EventName="BeforePrint" PropertyName="Text" Expression="[shposNameA]" />
           </ExpressionBindings>
           <StylePriority Ref="58" UseFont="false" UseTextAlignment="false" />
         </Item1>
-        <Item2 Ref="59" ControlType="XRLabel" Name="xrLabel9" Multiline="true" Text="xrLabel1" TextAlignment="MiddleCenter" SizeF="702.8192,58.41992" LocationFloat="3.18080544, 1113.28577" Dpi="254" Font="Arial, 8pt, style=Bold" Padding="5,5,0,0,254">
+        <Item2 Ref="59" ControlType="XRLabel" Name="xrLabel10" Multiline="true" Text="xrLabel1" TextAlignment="MiddleCenter" SizeF="702.8192,58.41992" LocationFloat="3.180805, 1171.706" Dpi="254" Font="Arial, 8pt, style=Bold" Padding="5,5,0,0,254">
           <ExpressionBindings>
-            <Item1 Ref="60" EventName="BeforePrint" PropertyName="Text" Expression="[shposNameA]" />
+            <Item1 Ref="60" EventName="BeforePrint" PropertyName="Text" Expression="[usercreateshiftposNameA]" />
           </ExpressionBindings>
           <StylePriority Ref="61" UseFont="false" UseTextAlignment="false" />
         </Item2>
-        <Item3 Ref="62" ControlType="XRBarCode" Name="xrBarCode2" Module="5.08" AutoModule="true" ShowText="false" SizeF="341.5056,291.041565" LocationFloat="127.977531, 782.7682" Dpi="254" Padding="25,25,0,0,254">
+        <Item3 Ref="62" ControlType="XRBarCode" Name="xrBarCode2" Module="5.08" AutoModule="true" ShowText="false" SizeF="341.5056,291.0416" LocationFloat="127.9775, 782.7682" Dpi="254" Padding="25,25,0,0,254">
           <Symbology Ref="63" Name="QRCode" CompactionMode="Byte" />
           <ExpressionBindings>
             <Item1 Ref="64" EventName="BeforePrint" PropertyName="Text" Expression="[QrCode]" />
@@ -241,10 +241,10 @@
   </Bands>
   <StyleSheet>
     <Item1 Ref="108" Name="Title" BorderStyle="Inset" Font="Arial, 14.25pt" ForeColor="255,75,75,75" BackColor="Transparent" BorderColor="Black" Sides="None" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="1" />
-    <Item2 Ref="109" Name="DetailCaption1" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt, style=Bold" ForeColor="White" BackColor="255,75,75,75" BorderColor="White" Sides="Left" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
-    <Item3 Ref="110" Name="DetailData1" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt" ForeColor="Black" BorderColor="Transparent" Sides="Left" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
-    <Item4 Ref="111" Name="DetailData3_Odd" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt" ForeColor="Black" BackColor="255,231,231,231" BorderColor="Transparent" Sides="None" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="1" />
-    <Item5 Ref="112" Name="PageInfo" BorderStyle="Inset" Padding="2,2,0,0,100" Font="Arial, 8.25pt, style=Bold" ForeColor="255,75,75,75" StringFormat="Near;Near;0;None;Character;Default" />
+    <Item2 Ref="109" Name="DetailCaption1" BorderStyle="Inset" Padding="15,15,0,0,254" Font="Arial, 8.25pt, style=Bold" ForeColor="White" BackColor="255,75,75,75" BorderColor="White" Sides="Left" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
+    <Item3 Ref="110" Name="DetailData1" BorderStyle="Inset" Padding="15,15,0,0,254" Font="Arial, 8.25pt" ForeColor="Black" BorderColor="Transparent" Sides="Left" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
+    <Item4 Ref="111" Name="DetailData3_Odd" BorderStyle="Inset" Padding="15,15,0,0,254" Font="Arial, 8.25pt" ForeColor="Black" BackColor="255,231,231,231" BorderColor="Transparent" Sides="None" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="1" />
+    <Item5 Ref="112" Name="PageInfo" BorderStyle="Inset" Padding="5,5,0,0,254" Font="Arial, 8.25pt, style=Bold" ForeColor="255,75,75,75" StringFormat="Near;Near;0;None;Character;Default" />
   </StyleSheet>
   <ComponentStorage>
     <Item1 Ref="0" ObjectType="DevExpress.DataAccess.ObjectBinding.ObjectDataSource,DevExpress.DataAccess.v19.2" Name="objectDataSource1" Base64="PE9iamVjdERhdGFTb3VyY2UgTmFtZT0ib2JqZWN0RGF0YVNvdXJjZTEiIC8+" />
