@@ -3383,8 +3383,7 @@
         "dependencies": {
           "DevExpress.Win.Design": "21.2.6",
           "Guna.UI2.WinForms": "2.0.3.5",
-          "ComponentFactory.Krypton.Toolkit": "1.0.0",
-          "CrystalReports.Windows.Forms": "13.0.4001"
+          "ComponentFactory.Krypton.Toolkit": "1.0.0"
         },
         "runtime": {
           "OdixTools.dll": {}
