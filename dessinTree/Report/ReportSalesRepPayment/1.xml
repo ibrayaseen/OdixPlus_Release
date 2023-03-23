@@ -1,0 +1,714 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion" />
+  <property name="#LayoutScaleFactor">@1,Width=1@1,Height=1</property>
+  <property name="Appearance" isnull="true" iskey="true">
+    <property name="GroupRow" iskey="true" value="GroupRow">
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseForeColor">true</property>
+        <property name="UseFont">true</property>
+      </property>
+      <property name="ForeColor">192, 0, 0</property>
+      <property name="Font">Tahoma, 8.25pt, style=Bold</property>
+    </property>
+  </property>
+  <property name="OptionsBehavior" isnull="true" iskey="true">
+    <property name="AllowPartialGroups">True</property>
+    <property name="AlignGroupSummaryInGroupRow">True</property>
+    <property name="AllowFixedGroups">True</property>
+    <property name="AutoExpandAllGroups">true</property>
+    <property name="AllowGroupExpandAnimation">True</property>
+    <property name="Editable">false</property>
+  </property>
+  <property name="OptionsCustomization" isnull="true" iskey="true">
+    <property name="AllowMergedGrouping">True</property>
+  </property>
+  <property name="OptionsSelection" isnull="true" iskey="true">
+    <property name="ShowCheckBoxSelectorInGroupRow">True</property>
+  </property>
+  <property name="OptionsView" isnull="true" iskey="true">
+    <property name="GroupDrawMode">Standard</property>
+    <property name="ColumnAutoWidth">false</property>
+    <property name="ShowChildrenInGroupPanel">true</property>
+    <property name="ShowAutoFilterRow">true</property>
+    <property name="ShowFooter">true</property>
+    <property name="ShowGroupedColumns">true</property>
+    <property name="ShowGroupPanelColumnsAsSingleRow">true</property>
+  </property>
+  <property name="OptionsFilter" isnull="true" iskey="true">
+    <property name="DefaultFilterEditorView">VisualAndText</property>
+  </property>
+  <property name="OptionsFind" isnull="true" iskey="true">
+    <property name="SearchInPreview">true</property>
+    <property name="AlwaysVisible">true</property>
+  </property>
+  <property name="OptionsMenu" isnull="true" iskey="true">
+    <property name="ShowAddNewSummaryItem">True</property>
+    <property name="EnableGroupRowMenu">true</property>
+  </property>
+  <property name="FixedLineWidth">2</property>
+  <property name="IndicatorWidth">-1</property>
+  <property name="ColumnPanelRowHeight">-1</property>
+  <property name="RowSeparatorHeight">0</property>
+  <property name="FooterPanelHeight">-1</property>
+  <property name="HorzScrollVisibility">Auto</property>
+  <property name="VertScrollVisibility">Auto</property>
+  <property name="RowHeight">-1</property>
+  <property name="GroupRowHeight">-1</property>
+  <property name="GroupFormat">{0}: [#image]{1} {2}</property>
+  <property name="ChildGridLevelName" />
+  <property name="VertScrollTipFieldName" />
+  <property name="PreviewFieldName" />
+  <property name="GroupPanelText" />
+  <property name="NewItemRowText" />
+  <property name="LevelIndent">-1</property>
+  <property name="PreviewIndent">-1</property>
+  <property name="PreviewLineCount">-1</property>
+  <property name="ScrollStyle">LiveVertScroll, LiveHorzScroll</property>
+  <property name="FocusRectStyle">CellFocus</property>
+  <property name="HorzScrollStep">0</property>
+  <property name="OptionsClipboard" isnull="true" iskey="true">
+    <property name="AllowTxtFormat">True</property>
+    <property name="AllowRtfFormat">True</property>
+    <property name="AllowHtmlFormat">True</property>
+    <property name="AllowExcelFormat">True</property>
+  </property>
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="ViewCaptionHeight">-1</property>
+  <property name="Columns" iskey="true" value="34">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Name">colSalesRepNameA</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">اسم المندوب</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">SalesRepNameA</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">0</property>
+      <property name="Visible">true</property>
+      <property name="Width">97</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="Name">colcustomer_tbNameA</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">اسم الطرق الثاني</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">customer_tbNameA</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">1</property>
+      <property name="Visible">true</property>
+      <property name="Width">119</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="Name">colTotalSales</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">مجموع مبيعات المندوب</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">TotalSales</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">2</property>
+      <property name="Visible">true</property>
+      <property name="Width">142</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">0.00</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">TotalSales</property>
+          <property name="SummaryType">Sum</property>
+          <property name="DisplayFormat">SUM={0:0.00}</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="Name">colTotalReturnSales</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">مجموع مردود مبيعات المندوب</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">TotalReturnSales</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">3</property>
+      <property name="Visible">true</property>
+      <property name="Width">171</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">0.00</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">TotalReturnSales</property>
+          <property name="SummaryType">Sum</property>
+          <property name="DisplayFormat">SUM={0:0.00}</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="Name">colGrosSales</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">صافي المبيعات</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">GrosSales</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">4</property>
+      <property name="Visible">true</property>
+      <property name="Width">105</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">0.00</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">GrosSales</property>
+          <property name="SummaryType">Sum</property>
+          <property name="DisplayFormat">SUM={0:0.00}</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="Name">colTotalCostSales</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">تكاليف المبيعات</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">TotalCostSales</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">5</property>
+      <property name="Visible">true</property>
+      <property name="Width">106</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">0.00</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">TotalCostSales</property>
+          <property name="SummaryType">Sum</property>
+          <property name="DisplayFormat">SUM={0:0.00}</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="Name">colTotalCostReturnSales</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">تكاليف المرتجع</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">TotalCostReturnSales</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">6</property>
+      <property name="Visible">true</property>
+      <property name="Width">101</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">0.00</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">TotalCostReturnSales</property>
+          <property name="SummaryType">Sum</property>
+          <property name="DisplayFormat">SUM={0:0.00}</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="Name">colGrosCostSales</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">صافي التكلفة</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">GrosCostSales</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">7</property>
+      <property name="Visible">true</property>
+      <property name="Width">98</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">0.00</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">GrosCostSales</property>
+          <property name="SummaryType">Sum</property>
+          <property name="DisplayFormat">SUM={0:0.00}</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="Name">colProfitSalesSales</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">صافي الربح</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ProfitSalesSales</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">8</property>
+      <property name="Visible">true</property>
+      <property name="Width">88</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">0.00</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">ProfitSalesSales</property>
+          <property name="SummaryType">Sum</property>
+          <property name="DisplayFormat">SUM={0:0.00}</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="Name">colTotalPayment</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">مقبوضات المندوب/ق</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">TotalPayment</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">9</property>
+      <property name="Visible">true</property>
+      <property name="Width">131</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">0.00</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">TotalPayment</property>
+          <property name="SummaryType">Sum</property>
+          <property name="DisplayFormat">SUM={0:0.00}</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="Name">colTotalPaymentsCash</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">مقبوضات المندوب/خ</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">TotalPaymentsCash</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">10</property>
+      <property name="Visible">true</property>
+      <property name="Width">128</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">0.00</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">TotalPaymentsCash</property>
+          <property name="SummaryType">Sum</property>
+          <property name="DisplayFormat">SUM={0:0.00}</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="Name">colGrosPaymentss</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">صافي المقبوضات</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">GrosPaymentss</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">11</property>
+      <property name="Visible">true</property>
+      <property name="Width">115</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">0.00</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">GrosPaymentss</property>
+          <property name="SummaryType">Sum</property>
+          <property name="DisplayFormat">SUM={0:0.00}</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="Name">colcustomer_Balance</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">الرصيد للطرف الثاني</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">customer_Balance</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="Name">colcustomer_tbAccountNumber</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">رقم  الضريبي الطرق الثاني</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">customer_tbAccountNumber</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="Name">colcustomer_tbAddress</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">عنوان الطرق الثاني</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">customer_tbAddress</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="Name">colcustomer_tbCardNo</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">&#x2;كود الطرق الثاني</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">customer_tbCardNo</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="Name">colcustomer_tbCreditLimit</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">الحد الائتماني للطرف الثاني</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">customer_tbCreditLimit</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item18" isnull="true" iskey="true">
+      <property name="Name">colcustomer_tbNameL</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">الاسم الاتيني الطرق الثاني</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">customer_tbNameL</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item19" isnull="true" iskey="true">
+      <property name="Name">colcustomer_tbNote</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">ملاحظات الطرق الثاني</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">customer_tbNote</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item20" isnull="true" iskey="true">
+      <property name="Name">colcustomer_tbTelephone1</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">هاتف 1 الطرق الثاني</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">customer_tbTelephone1</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item21" isnull="true" iskey="true">
+      <property name="Name">colcustomer_tbTelephone2</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">هاتف 2 الطرق الثاني</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">customer_tbTelephone2</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item22" isnull="true" iskey="true">
+      <property name="Name">colcustomer_tbwebsite</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">موقع الويب الطرق الثاني</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">customer_tbwebsite</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item23" isnull="true" iskey="true">
+      <property name="Name">colReturnGrosPaymentss</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">مرتجع مقبوضات</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ReturnGrosPaymentss</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item24" isnull="true" iskey="true">
+      <property name="Name">colSalesRepAccountNumber</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">رقم المندوب</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">SalesRepAccountNumber</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item25" isnull="true" iskey="true">
+      <property name="Name">colSalesRepAddress</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">عنوان المندوب</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">SalesRepAddress</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item26" isnull="true" iskey="true">
+      <property name="Name">colSalesRepCardNo</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">&#x2;كود المندوب</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">SalesRepCardNo</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item27" isnull="true" iskey="true">
+      <property name="Name">colSalesRepEmail</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">ايميل المندوب</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">SalesRepEmail</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item28" isnull="true" iskey="true">
+      <property name="Name">colSalesRepid</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">SalesRepid</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item29" isnull="true" iskey="true">
+      <property name="Name">colSalesRepNameL</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">الاسم الاتسنس للمندوب</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">SalesRepNameL</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item30" isnull="true" iskey="true">
+      <property name="Name">colSalesRepNote</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">ملاحظات المندوب</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">SalesRepNote</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item31" isnull="true" iskey="true">
+      <property name="Name">colSalesRepTelephone1</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">هاتف 1 للمندوب</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">SalesRepTelephone1</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item32" isnull="true" iskey="true">
+      <property name="Name">colSalesRepTelephone2</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">هاتف 2 للمندوب</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">SalesRepTelephone2</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item33" isnull="true" iskey="true">
+      <property name="Name">colSalesRepwebsite</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">موقع الويب للمندوب</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">SalesRepwebsite</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item34" isnull="true" iskey="true">
+      <property name="Name">colcustomer_tbEmail</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">ايميل الطرق الثاني</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">customer_tbEmail</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">12</property>
+      <property name="Visible">true</property>
+      <property name="Width">122</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+  </property>
+  <property name="ViewCaption" />
+  <property name="BorderStyle">Default</property>
+  <property name="SynchronizeClones">true</property>
+  <property name="DetailTabHeaderLocation">Top</property>
+  <property name="Name">gridView1</property>
+  <property name="DetailHeight">350</property>
+  <property name="Tag" isnull="true" />
+  <property name="GroupSummary" iskey="true" value="0" />
+  <property name="ActiveFilterString" />
+  <property name="FormatRules" iskey="true" value="0" />
+  <property name="FormatConditions" iskey="true" value="0" />
+  <property name="GroupSummarySortInfoState" />
+  <property name="FindFilterText" />
+  <property name="FindPanelVisible">false</property>
+</XtraSerializer>

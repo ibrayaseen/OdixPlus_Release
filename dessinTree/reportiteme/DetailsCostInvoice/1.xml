@@ -17,6 +17,7 @@
     <property name="AllowFixedGroups">True</property>
     <property name="AutoExpandAllGroups">true</property>
     <property name="AllowGroupExpandAnimation">True</property>
+    <property name="Editable">false</property>
   </property>
   <property name="OptionsCustomization" isnull="true" iskey="true">
     <property name="AllowMergedGrouping">True</property>
@@ -73,9 +74,12 @@
   </property>
   <property name="ActiveFilterEnabled">true</property>
   <property name="ViewCaptionHeight">-1</property>
-  <property name="Columns" iskey="true" value="7">
+  <property name="Columns" iskey="true" value="10">
     <property name="Item1" isnull="true" iskey="true">
       <property name="Name">colSerial</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
       <property name="Caption">#</property>
       <property name="ImageAlignment">Near</property>
       <property name="ImageIndex">-1</property>
@@ -84,12 +88,15 @@
       <property name="ColumnEditName" />
       <property name="VisibleIndex">0</property>
       <property name="Visible">true</property>
-      <property name="Width">60</property>
+      <property name="Width">67</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item2" isnull="true" iskey="true">
       <property name="Name">colCollItemName</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
       <property name="Caption">الصنف</property>
       <property name="ImageAlignment">Near</property>
       <property name="ImageIndex">-1</property>
@@ -97,12 +104,15 @@
       <property name="ColumnEditName" />
       <property name="VisibleIndex">2</property>
       <property name="Visible">true</property>
-      <property name="Width">64</property>
+      <property name="Width">111</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item3" isnull="true" iskey="true">
       <property name="Name">colOperationDate</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
       <property name="Caption">التاريخ</property>
       <property name="ImageAlignment">Near</property>
       <property name="ImageIndex">-1</property>
@@ -110,12 +120,15 @@
       <property name="ColumnEditName" />
       <property name="VisibleIndex">1</property>
       <property name="Visible">true</property>
-      <property name="Width">63</property>
+      <property name="Width">69</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item4" isnull="true" iskey="true">
       <property name="Name">colQuantityIN</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
       <property name="Caption">الوارد</property>
       <property name="ImageAlignment">Near</property>
       <property name="ImageIndex">-1</property>
@@ -125,7 +138,7 @@
       <property name="Visible">true</property>
       <property name="Width">58</property>
       <property name="DisplayFormat" isnull="true" iskey="true">
-        <property name="FormatString">0.000</property>
+        <property name="FormatString">0.00</property>
         <property name="FormatType">Numeric</property>
       </property>
       <property name="MinWidth">20</property>
@@ -133,6 +146,9 @@
     </property>
     <property name="Item5" isnull="true" iskey="true">
       <property name="Name">colQuantityOut</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
       <property name="Caption">الصادر</property>
       <property name="ImageAlignment">Near</property>
       <property name="ImageIndex">-1</property>
@@ -142,7 +158,7 @@
       <property name="Visible">true</property>
       <property name="Width">62</property>
       <property name="DisplayFormat" isnull="true" iskey="true">
-        <property name="FormatString">0.000</property>
+        <property name="FormatString">0.00</property>
         <property name="FormatType">Numeric</property>
       </property>
       <property name="MinWidth">20</property>
@@ -150,6 +166,9 @@
     </property>
     <property name="Item6" isnull="true" iskey="true">
       <property name="Name">colTotalCost</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
       <property name="Caption">تكلفة</property>
       <property name="ImageAlignment">Near</property>
       <property name="ImageIndex">-1</property>
@@ -157,16 +176,27 @@
       <property name="ColumnEditName" />
       <property name="VisibleIndex">5</property>
       <property name="Visible">true</property>
-      <property name="Width">60</property>
+      <property name="Width">114</property>
       <property name="DisplayFormat" isnull="true" iskey="true">
-        <property name="FormatString">0.000</property>
+        <property name="FormatString">0.00</property>
         <property name="FormatType">Numeric</property>
       </property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">TotalCost</property>
+          <property name="SummaryType">Sum</property>
+          <property name="DisplayFormat">SUM={0:0.00}</property>
+        </property>
+      </property>
     </property>
     <property name="Item7" isnull="true" iskey="true">
       <property name="Name">colParent_serial</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
       <property name="Caption">تكلفة من فاتورة</property>
       <property name="ImageAlignment">Near</property>
       <property name="ImageIndex">-1</property>
@@ -178,6 +208,45 @@
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="Name">colInvoiceID</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">InvoiceID</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="Name">colitemid</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">itemid</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="Name">colEntryType</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">EntryType</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
   </property>
   <property name="ViewCaption" />
   <property name="BorderStyle">Default</property>
@@ -186,7 +255,15 @@
   <property name="Name">gridView1</property>
   <property name="DetailHeight">350</property>
   <property name="Tag" isnull="true" />
-  <property name="GroupSummary" iskey="true" value="0" />
+  <property name="GroupSummary" iskey="true" value="1">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="ShowInGroupColumnFooterName">colTotalCost</property>
+      <property name="Tag" isnull="true" />
+      <property name="FieldName">TotalCost</property>
+      <property name="SummaryType">Sum</property>
+      <property name="DisplayFormat">SUM={0:0.00}</property>
+    </property>
+  </property>
   <property name="ActiveFilterString" />
   <property name="FormatRules" iskey="true" value="0" />
   <property name="SortInfoState" iskey="true" value="1">

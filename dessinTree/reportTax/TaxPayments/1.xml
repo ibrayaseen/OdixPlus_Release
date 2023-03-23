@@ -17,6 +17,7 @@
     <property name="AllowFixedGroups">True</property>
     <property name="AutoExpandAllGroups">true</property>
     <property name="AllowGroupExpandAnimation">True</property>
+    <property name="Editable">false</property>
   </property>
   <property name="OptionsCustomization" isnull="true" iskey="true">
     <property name="AllowMergedGrouping">True</property>
@@ -80,6 +81,7 @@
       <property name="ImageAlignment">Near</property>
       <property name="ImageIndex">-1</property>
       <property name="FieldName">Description</property>
+      <property name="Fixed">Left</property>
       <property name="ColumnEditName" />
       <property name="VisibleIndex">0</property>
       <property name="Visible">true</property>
@@ -96,7 +98,7 @@
       <property name="ColumnEditName" />
       <property name="VisibleIndex">1</property>
       <property name="Visible">true</property>
-      <property name="Width">63</property>
+      <property name="Width">69</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
@@ -150,11 +152,19 @@
       <property name="Visible">true</property>
       <property name="Width">62</property>
       <property name="DisplayFormat" isnull="true" iskey="true">
-        <property name="FormatString">0.000</property>
+        <property name="FormatString">0.00</property>
         <property name="FormatType">Numeric</property>
       </property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">AmountPaymentsDetails</property>
+          <property name="SummaryType">Sum</property>
+          <property name="DisplayFormat">SUM={0:0.00}</property>
+        </property>
+      </property>
     </property>
     <property name="Item7" isnull="true" iskey="true">
       <property name="Name">colDiscAmountPaymentsDetails</property>
@@ -167,11 +177,19 @@
       <property name="Visible">true</property>
       <property name="Width">65</property>
       <property name="DisplayFormat" isnull="true" iskey="true">
-        <property name="FormatString">0.000</property>
+        <property name="FormatString">0.00</property>
         <property name="FormatType">Numeric</property>
       </property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">DiscAmountPaymentsDetails</property>
+          <property name="SummaryType">Sum</property>
+          <property name="DisplayFormat">SUM={0:0.00}</property>
+        </property>
+      </property>
     </property>
     <property name="Item8" isnull="true" iskey="true">
       <property name="Name">colAccountTaxPaymentsDetails</property>
@@ -184,11 +202,19 @@
       <property name="Visible">true</property>
       <property name="Width">68</property>
       <property name="DisplayFormat" isnull="true" iskey="true">
-        <property name="FormatString">0.000</property>
+        <property name="FormatString">0.00</property>
         <property name="FormatType">Numeric</property>
       </property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">AccountTaxPaymentsDetails</property>
+          <property name="SummaryType">Sum</property>
+          <property name="DisplayFormat">SUM={0:0.00}</property>
+        </property>
+      </property>
     </property>
     <property name="Item9" isnull="true" iskey="true">
       <property name="Name">colNameABranchPayments</property>
@@ -212,7 +238,7 @@
       <property name="ColumnEditName" />
       <property name="VisibleIndex">9</property>
       <property name="Visible">true</property>
-      <property name="Width">80</property>
+      <property name="Width">105</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
@@ -266,6 +292,15 @@
   <property name="GroupSummary" iskey="true" value="0" />
   <property name="ActiveFilterString" />
   <property name="FormatRules" iskey="true" value="0" />
+  <property name="SortInfoState" iskey="true" value="1">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Orders">Ascending</property>
+      <property name="Columns">colDescription</property>
+    </property>
+    <property name="Content" isnull="true" iskey="true">
+      <property name="GroupCount">1</property>
+    </property>
+  </property>
   <property name="FormatConditions" iskey="true" value="0" />
   <property name="GroupSummarySortInfoState" />
   <property name="FindFilterText" />
